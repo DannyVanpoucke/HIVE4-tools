@@ -49,10 +49,12 @@ The current version is valid until **31/12/2020**.
 
 ## Footnotes
 <a name="ftnoteFree">1</a> The HIVE-toolbox is free (as in *free beer*), but not open-source.
+
 <a name="ftnoteClean">2</a> Note that not a single part of the HIVE-toolbox was developed as subject 
 of a funded scientific project. This has the unfortunate side-effect that too often code is 
 implemented to work for the problem at hand. With the intended cleanup, some of the issues 
 for more general problems will be resolved. 
+
 <a name="ftnoteGDPR">3</a> In a world of overkill (called GDPR), I assume that by informing me of
 your usage of the HIVE-toolbox, you grant me the right to keep this information in a list as long
 as the HIVE-toolbox is available. I promise not to spam you with commercials, nor sell this information
