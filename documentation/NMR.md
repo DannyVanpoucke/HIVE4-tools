@@ -1,4 +1,4 @@
-#NMR
+# NMR
 Although VASP does not incorporate *core*-electrons during total energy
 calculations, it is still possible to calculate (approximately) the [chemical
 shifts](https://cms.mpi.univie.ac.at/wiki/index.php/LCHIMAG). 
