@@ -15,8 +15,9 @@ further extended to include more and more functionality. With the advent of vers
 to make the HIVE-toolbox publicly available,<sup>[1](#ftnoteFree)</sup> while at the same time clean up the code.<sup>[2](#ftnoteClean)</sup>
 
 ## Installation
-Just copy the correct executable (Windows or linux-HPC) to a suitable location and add 
+1 Just copy the correct executable (Windows or linux-HPC) to a suitable location and add 
 it to the path.
+2 Place a copy of the license file and the manual file in the folder of your executable.
 
 ## Registration
 Stemming from my personal curiosity, I would like to know for which purpose people are 
@@ -27,9 +28,10 @@ using the HIVE-toolbox.<sup>[3](#ftnoteGDPR)</sup>
 ## The Tools
 A log of all changes between versions can be found [here](/documentation/changelog.md)
 The list of implemented tools so far:
-1. Extracting chemical shifts and generating [NMR spectra](/documentation/NMR.md). 
+- [x] Extracting chemical shifts and generating [NMR spectra](/documentation/NMR.md). 
 (*cf.*, paper [\[1\]](#paper1_NMR) )
-2. Analysis and calculation of phonons in periodic solids (and molecules)
+- [ ] Analysis and calculation of phonons in periodic solids (and molecules)
+- [ ] Hirhfeld-I for periodic materials
 
 
 For further information please refer to my [webpage](https://dannyvanpoucke.be). 

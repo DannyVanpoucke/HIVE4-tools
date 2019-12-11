@@ -1,0 +1,147 @@
+6
+<entry  topic="about" index="1">
+Welcome to Hive 4.x, the publicly available version of Hive.
+
+
+Hive is a toolbox for post-processing ab-initio data obtained from the VASP
+program. The set of incorporated tools has grown over a period of more than
+10 years, and is still expanding. With version 4, the code is receiving a much
+needed overhaul, which includes a clean-up of existing code, making it suitable
+for other users. As a result, Hive 4.x does not include all functionality of
+Hive 3.x, but we hope to get there at some point in the future.
+
+To get an overview of the currently implemented options, you can consult the
+'help'-function of this manual.
+> hive4.exe help
+
+To obtain help-information on a specific topic/tool/command you can append a '?'
+to the specific keyword. E.g.:
+> hive4.exe NMR?
+to find out more on the NMR keyword.
+
+You are allowed to use this software freely (but please cite the appropriate
+literature when using the results in your work). You are not allowed to
+distribute, sell or rent this software without the explicit written consent of
+the main developer (Danny E. P. Vanpoucke). If you obtained this software from
+any other party please contact Danny E. P. Vanpoucke to obtain a valid license.
+For more information consult the 'license?' section.
+
+Main developer:
+     - Danny E. P. Vanpoucke
+
+Hirshfeld-I module:
+     - Patrick Bultinck & Dieter Ghillemijn
+          * Original procedural molecular Hirshfeld-I code (for Gaussian)
+     - Danny E. P. Vanpoucke
+          * Rewrite to object oriented fortran 2003 code
+          * OpenMP parallelization
+          * Implementation of density based periodic Hirshfeld-I for VASP
+          * Implementation of support routines (generating/checking/...)
+               of VASP based atdens-files
+
+Christoffel module:
+      - Jan Jaeken
+          * Original Python implementation
+      - Danny E. P. Vanpoucke
+          * Translation to fortran 2003 module
+
+Beta-testers & Bug-hunters:
+      - Michael Sluydts
+      - Jan Jaeken
+
+</entry>
+
+<entry  topic="exit" index="2">
+Terminate and close the program. (Same as quit.)
+</entry>
+
+<entry  topic="help" index="3">
+The "help" option provides some extra information about
+the usage of the manual, as well as the options available.
+
+Command-line usage:
+> hive4.exe help
+
+Available:
+----------
+  * command-line
+  * interactive
+
+</entry>
+
+<entry  topic="license" index="4">
+Copyright (c) 2019 Dr. Dr. Danny E.P. Vanpoucke
+https://dannyvanpoucke.be
+https://github.com/DannyVanpoucke
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), the rights
+to use and copy copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+* The above copyright notice and this permission notice shall be included in all
+copies or portions of the Software.
+
+* The software is not sold, sublicensed, or distributed without the explicit consent
+of the author (Dr. Dr. Danny E.P. Vanpoucke).
+
+* Results obtained with the Software are acknowledged as indicated in the documentation.
+
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+</entry>
+
+
+
+<entry  topic="NMR" index="5">
+Command to extract NMR data from a VASP output file, and transform
+it into data to plot using grace or excel.
+
+The command line option runs as follows:
+   > Hive.exe NMR OUTCAR SETTINGS
+
+ with :
+   - OUTCAR     an OUTCAR formatted file containing the NMR data.
+   - SETTINGS   a text-file containing the parameters to use:
+       * INCLUDE_G    : Logical indicating if the G=0 contribution is
+                        included. [DEFAULT = .TRUE. ]
+       * INCLUDE_CORE : Logical indicating if the core contribution is
+                        included. [DEFAULT = .TRUE. ]
+       * SHAPE : Peak-shape choice.(Delta, Gaussian) [DEFAULT = Gaussian]
+       * SIGMA : Peak width of Gaussian shaped peaks. One value per atomic
+                 species (POSCAR definition). [\b DEFAULT = 1 ppm]
+       * SHIFT : Do the NMR peaks need to be shifted? [DEFAULT = No]
+                + No      : No shifting.
+                + Species : One value per atomic species
+                + Atom    : One value for each separate atom.
+       * SHIFT_VALUE : real valued shift(s) in ppm if Shift is not "No".
+                        [DEFAULT = 0.0]
+       * STEPSIZE    : real valued step-size of the grid on which the
+                        spectrum is presented [DEFAULT = 0.1 (ppm)]
+
+
+Available:
+----------
+  * command-line
+
+Acknowledgement:
+----------------
+Usage of this module of HIVE can be acknowledged through reference to
+the following publication
+
+"UV-curable Biobased Polyacrylates based on a Multifunctional Monomer
+derived from Furfural", Jules Stouten, Danny E. P. Vanpoucke, Guy Van
+Assche , and Katrien V. Bernaerts, XXXX, (2020)
+
+</entry>
+
+<entry  topic="quit" index="6">
+Terminate and close the program. (Same as exit.)
+</entry>
+
