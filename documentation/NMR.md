@@ -38,10 +38,10 @@ can accessed the usual way, via the command:
 
 ## Acknowledgment
 If you use this tool you should cite the following publication:
-*"Title"*
-Authors,
-*Journal* **Volume**, pages (year).
-DOI: [doinumber](doiref) 
+*"UV-Curable Biobased Polyacrylates Based on a Multifunctional 2 Monomer Derived from Furfural"*
+Jules Stouten, Danny E. P. Vanpoucke, Guy Van Assche, and Katrien V. Bernaerts, 
+*Macromolecules* **53(4)**, 1388-1404 (2020).
+DOI: [10.1021/acs.macromol.9b02659](https://dx.doi.org/10.1021/acs.macromol.9b02659)
 
 
 ## Author
