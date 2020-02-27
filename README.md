@@ -69,7 +69,7 @@ as the HIVE-toolbox is available. I promise not to spam you with commercials, no
 for commercial purposes ;-) . 
 
 ## Bibliography
-* <a name="paper1_NMR">\[1\]<a>*"UV-Curable Biobased Polyacrylates Based on a Multifunctional 2 Monomer Derived from Furfural"*
+* <a name="paper1_NMR">\[1\]<a> *"UV-Curable Biobased Polyacrylates Based on a Multifunctional 2 Monomer Derived from Furfural"*,</br>
 Jules Stouten, Danny E. P. Vanpoucke, Guy Van Assche, and Katrien V. Bernaerts, 
-*Macromolecules* **53(4)**, 1388-1404 (2020).
+*Macromolecules* **53(4)**, 1388-1404 (2020).</br>
 DOI: [10.1021/acs.macromol.9b02659](https://dx.doi.org/10.1021/acs.macromol.9b02659)
