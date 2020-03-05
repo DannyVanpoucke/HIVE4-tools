@@ -25,6 +25,16 @@ unix-systems and a dos-box under windows. In windows, you can also use the progr
 in your Cygwin installation, again approaching it through a terminal application 
 (e.g., xterm). 
 
+## Errors, Bugs and other Nasties
+In case you run into problems with the program please consult the following:
+- [FAQ](/documentation/FAQ.md): problems with installation, running the program, finding information, crashes
+- [Known Bugs](/documentation/Bugs.md): Although I strive to make the program bug-free, this will be the place 
+to find more information on the status of currently know bugs 
+
+In case you run into a problem not mentioned in either of the above, please inform me via a Bug-report 
+submitted as an issue. 
+
+
 ## Registration
 Stemming from my personal curiosity, I would like to know for which purpose people are 
 interested in using my program. In addition, it as also cool to keep track of how many people 
