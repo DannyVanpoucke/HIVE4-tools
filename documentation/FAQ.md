@@ -7,9 +7,7 @@
 5. [I found a bug](#bugfind)
 
 
-<a name="IsitFree"> 
-### 1. Is HIVE-4 Free 
-</a>
+### <a name="IsitFree"> 1. Is HIVE-4 Free </a>
 Indeed, HIVE-4 is free to use for any acadmic user. I only ask, as an academic courtesy
 to cite the related publication whenever you publish results obtained with this software.
 You can find the relevant publications both on the github documentation as well as the 
