@@ -89,7 +89,7 @@ Jules Stouten, Danny E. P. Vanpoucke, Guy Van Assche, and Katrien V. Bernaerts,
 *Macromolecules* **53(4)**, 1388-1404 (2020).</br>
 DOI: [10.1021/acs.macromol.9b02659](https://dx.doi.org/10.1021/acs.macromol.9b02659)
 
-* <a name="#paper2_PhonDef">\[2\]<a> *"Partitioning the vibrational spectrum: Fingerprinting defects in solids"*,</br>
+* <a name="paper2_PhonDef">\[2\]<a> *"Partitioning the vibrational spectrum: Fingerprinting defects in solids"*,</br>
 Danny E. P. Vanpoucke, 
 *Computational Materials Science* **XX(Y)**, ZZ-ZZ (2020).</br>
 DOI: [XX](https://dx.doi.org/XX)

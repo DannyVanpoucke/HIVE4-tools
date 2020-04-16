@@ -25,18 +25,18 @@ The phononDefect subprogram is available in command-line mode only.
 ```
 with
 * INPUTFILE  : a text file containing the parameters needed.
-       * HOSTTDOS   : File containing the total DOS of the host system.
-       * DEFECTTDOS : File containing the total DOS of the defect system.
-       * DEFECTPDOS : File containing the projected DOS of the defect system.
-       * POSCAR     : File containing the POSCAR data of the defect system.
+	* HOSTTDOS   : File containing the total DOS of the host system.
+	* DEFECTTDOS : File containing the total DOS of the defect system.
+	* DEFECTPDOS : File containing the projected DOS of the defect system.
+	* POSCAR     : File containing the POSCAR data of the defect system.
                       \[**OPTIONAL**, **DEFAULT** = POSCAR \]
-       * THRESHOLD  : Real valued maximum % of overlap for a "defect atom".
+	* THRESHOLD  : Real valued maximum % of overlap for a "defect atom".
                       Out of range values are set to the corresponding bound.
                       \[**OPTIONAL**, **DEFAULT** = 50.0%\]
-       * MAX_RADIUS : Real valued maximum radius (in Angstrom) to belong to defect system.
+	* MAX_RADIUS : Real valued maximum radius (in Angstrom) to belong to defect system.
                       The minimal possible range is set to 0.01 Angstrom.
                       \[**OPTIONAL**, **DEFAULT** = 100A \]
-       * FITTOHOST  : Logical indicating if the defect DOS spectra should be fit to the total DOS
+	* FITTOHOST  : Logical indicating if the defect DOS spectra should be fit to the total DOS
                       of the host system (*i.e.* to negate lattice expansion due to small cell)
                       \[**OPTIONAL**, **DEFAULT** = .FALSE.\]
 					  
