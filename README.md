@@ -50,7 +50,8 @@ The list of implemented tools so far:
 - [x] Extracting chemical shifts and generating [NMR spectra](/documentation/NMR.md). 
 (*cf.*, paper [\[1\]](#paper1_NMR) )
 - [ ] Calculation of phonons in periodic solids (and molecules)
-- [x] Generation of [phonon spectra of (point) defects in periodic solids](/documentation/phononDefect.md) (*cf.*, paper [\[2\]](#paper2_PhonDef) )
+- [x] Generation of [phonon spectra of (point) defects in periodic solids](/documentation/phononDefect.md). 
+(*cf.*, paper [\[2\]](#paper2_PhonDef) )
 - [ ] Hirhfeld-I for periodic materials
 
 
