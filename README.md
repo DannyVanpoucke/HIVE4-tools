@@ -12,24 +12,27 @@ through a common main loop. During a second incarnation (starting end 2009) the 
 subroutines were upgraded to take a more object-like approach (Fortran 2003 classes). At the
 same time, a doxygen documentation was included. Over the following years the HIVE-toolbox was 
 further extended to include more and more functionality. With the advent of version 4, I aim
-to make the HIVE-toolbox publicly available,<sup>[1](#ftnoteFree)</sup> while at the same time clean up the code.<sup>[2](#ftnoteClean)</sup>
+to make the HIVE-toolbox publicly available,<sup>[1](#ftnoteFree)</sup> while at the same time 
+clean up the code.<sup>[2](#ftnoteClean)</sup>
 
 ## Installation
 1. Just copy the correct executable (Windows or linux-HPC) to a suitable location and add 
 it to the path. (You might want to rename the executable to a more convenient name such as "hive4")
 2. Place a copy of the license file and the manual file in the folder of your executable.
+3. Try to run the executable via the commandline (dos-box in windows). If unsuccesful please 
+report the error message via a Bug-report.
 
 ## Usage
 This is a command-line program. As such it should be accessed via a terminal under 
 unix-systems and a dos-box under windows. In windows, you can also use the program 
 in your Cygwin installation, again approaching it through a terminal application 
-(e.g., xterm). 
+(*e.g.*, xterm). 
 
 ## Errors, Bugs and other Nasties
 In case you run into problems with the program please consult the following:
 - [FAQ](/documentation/FAQ.md): problems with installation, running the program, finding information, crashes
-- [Known Bugs](/documentation/Bugs.md): Although I strive to make the program bug-free, this will be the place 
-to find more information on the status of currently know bugs 
+- [Known Bugs](/documentation/Bugs.md): Although I strive to make the program bug-free, 
+this will be the place to find more information on the status of currently know bugs. 
 
 In case you run into a problem not mentioned in either of the above, please inform me via a Bug-report 
 submitted as an issue. 
@@ -46,7 +49,8 @@ A log of all changes between versions can be found [here](/documentation/changel
 The list of implemented tools so far:
 - [x] Extracting chemical shifts and generating [NMR spectra](/documentation/NMR.md). 
 (*cf.*, paper [\[1\]](#paper1_NMR) )
-- [ ] Analysis and calculation of phonons in periodic solids (and molecules)
+- [ ] Calculation of phonons in periodic solids (and molecules)
+- [x] Generation of [phonon spectra of (point) defects in periodic solids](/documentation/phononDefect.md) (*cf.*, paper [\[2\]](#paper2_PhonDef) )
 - [ ] Hirhfeld-I for periodic materials
 
 
@@ -83,3 +87,8 @@ for commercial purposes ;-) .
 Jules Stouten, Danny E. P. Vanpoucke, Guy Van Assche, and Katrien V. Bernaerts, 
 *Macromolecules* **53(4)**, 1388-1404 (2020).</br>
 DOI: [10.1021/acs.macromol.9b02659](https://dx.doi.org/10.1021/acs.macromol.9b02659)
+
+* <a name="#paper2_PhonDef">\[2\]<a> *"Partitioning the vibrational spectrum: Fingerprinting defects in solids"*,</br>
+Danny E. P. Vanpoucke, 
+*Computational Materials Science* **XX(Y)**, ZZ-ZZ (2020).</br>
+DOI: [XX](https://dx.doi.org/XX)
