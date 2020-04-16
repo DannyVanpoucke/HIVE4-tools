@@ -12,7 +12,7 @@ allows you to generate the phonon DOS of a defect. This subprogram analyses the 
 phonon spectra for a system with the aim of extracting the spectrum of a defect. To do this 
 you need to have the phonon spectrum of the bulk host system as well as the
 spectrum of the system with the defect. The details of the approach are discussed
-in <B>[2](#paper2_PhonDef)</B>. The resulting spectra are written to a multicolumn file
+in <B>[\[1\]](#paper2_PhonDef)</B>. The resulting spectra are written to a multicolumn file
 which can easily be visualized using excel, xmgrace, gnuplot, ... 
 
 The options of the subprogram are controlled via a simple text-file. 

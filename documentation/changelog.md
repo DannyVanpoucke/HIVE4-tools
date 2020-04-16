@@ -2,11 +2,12 @@
 
 ### version 2020.04.16
 * Inclusion of the [phononDefect](phononDefect.md) tool.
-Program-stats:
-- 15310 lines
-- 62% code / 29% comments
-- 32 files
-- 8 commands
+
+* Program-stats:
+	- 15310 lines
+	- 62% code / 29% comments
+	- 32 files
+	- 8 commands
 
 
 ### version 2019.10.27
