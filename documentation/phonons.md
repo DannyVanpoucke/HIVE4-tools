@@ -62,7 +62,7 @@ with :
                       fact that the vibrational properties are calculated
                       for a cell the size of the unitcell used in the
                       reduced DOS. Consider this when providing GS energy.*
-                  \[**Requires supercell=.true.**\](**DEFAULT=.FALSE.)<br />
+                  \[**Requires supercell=.true.**\](**DEFAULT**=.FALSE.)<br />
                   Both approaches should give the same result, however,
                   their computational cost is located in different places:
 		* supercell=more bands=bigger hessian to solve
