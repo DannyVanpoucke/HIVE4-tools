@@ -13,77 +13,77 @@ with :
 * INPUTFILE: the filename of the file containing the list of input parameters and their values.
 
 
-###List of parameters:
+### List of parameters:
 --------------------
- 1. General
-   - datasource : string providing the program which generated the
+1. **General**
+	* datasource : string providing the program which generated the
                   input data. Current options: VASP. (DEFAULT=VASP)
-   - ncores     : Integer indicating the number of threads that should
+	* ncores     : Integer indicating the number of threads that should
                   be used for parallel single-node calculation (DEFAULT=1)
-   - energy unit: Unit to use when writing the data: THz, 2PiTHz,
+	* energy unit: Unit to use when writing the data: THz, 2PiTHz,
                   cm-1, meV. (DEFAULT=THz)
-   - distance in points : logical parameter indicating if for the
+	* distance in points : logical parameter indicating if for the
                   band-plot use the actual distance in the reciprocal
                   space (false) or #q-points (true) (DEFAULT=.false.)
-   - subsystem  : Logical indicating if the input system is a subsystem
+	* subsystem  : Logical indicating if the input system is a subsystem
                   such as a point-defect, surface,...
                   The "active/participating" atoms are indicated by the
                   selective dynamics option of the accompanying POSCAR.
                   (OPTIONAL, DEFAULT=.false.)
-   - subhessiantype: Integer value indicating how the Hessian for a sub-system
+	* subhessiantype: Integer value indicating how the Hessian for a sub-system
                   should be constructed and used. This parameter is
                   only read if subsystem = .TRUE.
                   (OPTIONAL, DEFAULT = 0)
-          * 0 : The full Hessian is retained, sanity checks are limited to
+		- 0 : The full Hessian is retained, sanity checks are limited to
                 the rows and columns linked to at least 1 subsystem atom.
-          * 1 : The Hessian is reduced to the subsystem only. However,
+		- 1 : The Hessian is reduced to the subsystem only. However,
                 sanity checks are still performed on the full system (cf. 0)
                 as a way to allow for interactions between the subsystem and
                 the frozen remainder. This allows for long ranged impacts on
                 the subsystem.
-          * 2 : The Hessian in reduced to the subsystem only, and sanity
+		- 2 : The Hessian in reduced to the subsystem only, and sanity
                 checks are limited to the subsystem only as well.
                 Interactions are limited to the subsystem.
-   - supercell  : Logical indicating if the input data is super-cell
+	* supercell  : Logical indicating if the input data is super-cell
                   data and need to be treated that way. (DEFAULT=.FALSE.)
                   If this keyword is set to true, also the keywords cells,
                   nrunitatoms and unitatomlist need to be given.
-   - reducedDYNMAT: Logical indicating if the dynamical matrix is generated
+	* reducedDYNMAT: Logical indicating if the dynamical matrix is generated
                   for the reference atoms only (.TRUE.) or for all atoms in
                   the system(.FALSE.).
                   (DEFAULT=.TRUE. if supercell=.TRUE., else .FALSE.)
-   - reducedDOS : Logical indicating if the DOS of a supercell should be
+	* reducedDOS : Logical indicating if the DOS of a supercell should be
                   calculated using the Brillouin zone and bands of the
                   supercell (.false.) or those of the unit-cell(.true.).
                   Both approaches should give the same result, however,
                   their computational cost is located in different places:
-                      * supercell=more bands=bigger hessian to solve
-                      * unit-cell=bigger Brillouin zone=more q-points
+		* supercell=more bands=bigger hessian to solve
+		* unit-cell=bigger Brillouin zone=more q-points
                   IMPORTANT: A consequence of using the reducedDOS is the
                       fact that the vibrational properties are calculated
                       for a cell the size of the unitcell used in the
                       reduced DOS. Consider this when providing GS energy.
                   [Requires supercell=.true.](DEFAULT=.FALSE.)
-   - cells      : 3 integers indicating the multiplication of the unit-cell
+	* cells      : 3 integers indicating the multiplication of the unit-cell
                   along the x,y, and z lattice vectors, respectively.
                   (Only read if supercell = .true. )
-   - nrunitatoms: Integer indicating the number of atoms in the unit-cell.
+	* nrunitatoms: Integer indicating the number of atoms in the unit-cell.
                   (Only read if supercell = .true. )
-   - unitatomlist: List of integer values representing the atoms in the
+	* unitatomlist: List of integer values representing the atoms in the
                   reference unit-cell, given on a single line. (Only read if
                   supercell = .true. )
-   - cleanup    : The Hessian matrix numerically produced may contain a lot
+	* cleanup    : The Hessian matrix numerically produced may contain a lot
                   of noise. With this option you can select specific clean-up
                   options to be used. The matrix is symmetrized by default to
                   produce more clean zero's for the translational modes.
                   Additional clean-up can be done for
-                  * rot3D: project out the 3 rotational modes of a molecule
-   - rotationprojection : Use the Tamkin or Gaussian approach to generating the
+		* rot3D: project out the 3 rotational modes of a molecule
+	* rotationprojection : Use the Tamkin or Gaussian approach to generating the
                   rotational modes. This keyword is only read if cleanup is set.
                   (DEFAULT=smallrot)
-                  + smallrot : the small-rotations way
-                  + gaussian : the gaussian way
-   - ModifiedGramSchmidtAll : Logical if all vectors are orthogonalised using MGS.
+		* smallrot : the small-rotations way
+		* gaussian : the gaussian way
+	* ModifiedGramSchmidtAll : Logical if all vectors are orthogonalised using MGS.
                   This keyword is only read if cleanup is set. (DEFAULT=.true.)
 
  2. GammaPhonons
