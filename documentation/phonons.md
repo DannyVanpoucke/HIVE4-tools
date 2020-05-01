@@ -29,7 +29,7 @@ with :
                   band-plot use the actual distance in the reciprocal
                   space (false) or #q-points (true) (**DEFAULT**=.FALSE.)
 	* subsystem  : Logical indicating if the input system is a subsystem
-                  such as a point-defect, surface,...
+                  such as a point-defect, surface,...<br />
                   The "*active/participating*" atoms are indicated by the
                   selective dynamics option of the accompanying POSCAR.
                   (**OPTIONAL**, **DEFAULT**=.FALSE.)
@@ -49,8 +49,8 @@ with :
                 Interactions are limited to the subsystem.
 	* supercell  : Logical indicating if the input data is super-cell
                   data and need to be treated that way. (**DEFAULT**=.FALSE.)
-                  If this keyword is set to true, also the keywords cells,
-                  nrunitatoms and unitatomlist need to be given.
+                  If this keyword is set to true, also the keywords *cells*,
+                  *nrunitatoms* and *unitatomlist* need to be given.
 	* reducedDYNMAT: Logical indicating if the dynamical matrix is generated
                   for the reference atoms only (.TRUE.) or for all atoms in
                   the system(.FALSE.).
@@ -61,8 +61,8 @@ with :
                   Both approaches should give the same result, however,
                   their computational cost is located in different places:
 		* supercell=more bands=bigger hessian to solve
-		* unit-cell=bigger Brillouin zone=more q-points
-                  **IMPORTANT**: *A consequence of using the reducedDOS is the
+		* unit-cell=bigger Brillouin zone=more q-points <br />
+	**IMPORTANT**: *A consequence of using the reducedDOS is the
                       fact that the vibrational properties are calculated
                       for a cell the size of the unitcell used in the
                       reduced DOS. Consider this when providing GS energy.*
