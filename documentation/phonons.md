@@ -57,16 +57,16 @@ with :
                   (**DEFAULT**=.TRUE. *if supercell=.TRUE., else .FALSE.*)
 	* reducedDOS : Logical indicating if the DOS of a supercell should be
                   calculated using the Brillouin zone and bands of the
-                  supercell (.false.) or those of the unit-cell(.true.).
-                  Both approaches should give the same result, however,
-                  their computational cost is located in different places:
-		* supercell=more bands=bigger hessian to solve
-		* unit-cell=bigger Brillouin zone=more q-points <br />
-	**IMPORTANT**: *A consequence of using the reducedDOS is the
+                  supercell (.false.) or those of the unit-cell(.true.).<br />
+				  **IMPORTANT**: *A consequence of using the reducedDOS is the
                       fact that the vibrational properties are calculated
                       for a cell the size of the unitcell used in the
                       reduced DOS. Consider this when providing GS energy.*
-                  \[**Requires supercell=.true.**\](**DEFAULT=.FALSE.)
+                  \[**Requires supercell=.true.**\](**DEFAULT=.FALSE.)<br />
+                  Both approaches should give the same result, however,
+                  their computational cost is located in different places:
+		* supercell=more bands=bigger hessian to solve
+		* unit-cell=bigger Brillouin zone=more q-points
 	* cells      : 3 integers indicating the multiplication of the unit-cell
                   along the *x*,*y*, and *z* lattice vectors, respectively.
                   (*Only read if supercell = .true.*)
@@ -103,16 +103,16 @@ with :
 	* q per line : integer number >=2 giving the number of q-points per high
                   symmetry line. Only read if bands=.true. (**DEFAULT**=10)
 	* q line list: This line is followed by a list of start and end points
-                  of the high-symmetry q-lines.
+                  of the high-symmetry q-lines.<br />
                   First line gives the starting-point in units b1, b2 and b3,
                   and the second line the end point in units b1, b2 and b3
                   (*i.e.*, reciprocal fractional coordinates).
                   Every q-line is separated by a blank line
                   (**DEFAULT**= Gamma-L line)
 	* q-path     : string giving the q-path. (**DEFAULT**= / )
-		- *example 1:* K-G-L
+		- *example 1:* K-G-L <br />
            2 lines, first going from K to Gamma, second from Gamma to L
-		- *example 2:* K-G|X-W
+		- *example 2:* K-G|X-W <br />
            2 lines, first going from K to Gamma, second from X to W
 
 4. **Density of States**
@@ -120,10 +120,10 @@ with :
                   to be calculated. Options: .true., .false.
                   (**DEFAULT**=.FALSE.)
 	* dos density: measure of the number of q-points along the shortest
-                  cartesian direction.(**DEFAULT**=10)
+                  cartesian direction.(**DEFAULT**=10)<br />
                   **NOTE:** *If this value is set to zero, then only the Gamma point
                   is considered.*
-	* dostype    : type of dosgrid to use (**OPTIONAL**, **DEFAULT**=full)
+	* dostype    : type of dosgrid to use (**OPTIONAL**, **DEFAULT**=full)<br />
                   If dos density is set to 0, then this option is
                   set to dostype=gamma.
 		* full : A 3D grid is spanned over the first Brillouin zone.
@@ -154,15 +154,15 @@ with :
                   vibrational properties need to be calculated.
                   (**DEFAULT**=.FALSE.)
 	* GS energy  : Real value that can be used to provide the DFT
-                  ground state energy in eV (**DEFAULT**= 0.0).
+                  ground state energy in eV (**DEFAULT**= 0.0).<br />
                   **NOTE:** *In case reducedDOS=.true. the value provided
                         should be that of the reduced cell.*
 	* vibrational source : Define which DOS will be used to calculate
-                  the vibrational contributions.
-                  options: gamma, full, or both.
+                  the vibrational contributions.<br />
+                  options: gamma, full, or both.<br />
                   If either "gamma" or "both" is chosen, then GammaPhonon
                   is set to true. If either "full" or "both" is chosen,
-                  then dos is set to true.
+                  then dos is set to true.<br />
                   (**DEFAULT**=gamma)
 	* Tmin       : Lower bound of the temperature range for the vibrational properties.
 	* Tmax       : Upper bound of the temperature range for the vibrational properties.
