@@ -48,7 +48,7 @@ can accessed the usual way, via the command:
 
 ## Acknowledgment
 If you use this tool you should cite the following publication:
-* <a name="paper2_PhonDef">\[2\]<a> *"Partitioning the vibrational spectrum: Fingerprinting defects in solids"*,</br>
+* <a name="paper2_PhonDef">\[1\]<a> *"Partitioning the vibrational spectrum: Fingerprinting defects in solids"*,</br>
 Danny E. P. Vanpoucke, 
 *Computational Materials Science* **181**, 109736 (2020).</br>
 DOI: [10.1016/j.commatsci.2020.109736](https://dx.doi.org/10.1016/j.commatsci.2020.109736)

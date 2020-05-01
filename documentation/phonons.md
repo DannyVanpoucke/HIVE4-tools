@@ -1,8 +1,11 @@
 # phononDefect
 Command to perform phonon-related calculations based on the dynamical
-matrix of a system. The sub-program requires a VASP formatted DYNMAT
+matrix of a system. The subprogram requires a VASP formatted DYNMAT
 file and POSCAR file to be present in the current folder.
 
+
+The details of how the full brillouin zone dynamical matrix is constructed is 
+discussed in <B>[\[1\]](#paper2_PhonDef)</B>.
 
 ## Usage:
 The phonons subprogram is available in command-line mode only.
@@ -195,7 +198,7 @@ with :
               scale the atomic displacements.
               (**DEFAULT**=1.0)
 
-X. **Parameters related to output-format**
+7. **Parameters related to output-format**
 	* bandformat : String parameter giving the output format type of
                   band structure data.<br /> 
 				  **Options:**  (**DEFAULT**=column)
@@ -219,7 +222,7 @@ to the **PHONONOUT.hive** file.
 
 ## Acknowledgment
 If you use this tool you should cite the following publication:
-* <a name="paper2_PhonDef">\[2\]<a> *"Partitioning the vibrational spectrum: Fingerprinting defects in solids"*,</br>
+* <a name="paper2_PhonDef">\[1\]<a> *"Partitioning the vibrational spectrum: Fingerprinting defects in solids"*,</br>
 Danny E. P. Vanpoucke, 
 *Computational Materials Science* **181**, 109736 (2020).</br>
 DOI: [10.1016/j.commatsci.2020.109736](https://dx.doi.org/10.1016/j.commatsci.2020.109736)
