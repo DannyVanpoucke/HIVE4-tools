@@ -279,7 +279,7 @@ List of parameters:
                   gaussian smearing.(DEFAULT=.false.)
    - smearing width: width of the smearing in "energy unit". This
                   parameter is read only if smearing = .true.
-                  (DEFAULT= value equivalent with 1 meV)
+                  (DEFAULT= value equivalent to 1 meV)
    - collect imaginary modes : logical indicating if the eigenmodes
                   of the imaginary frequencies at the worst case q-point
                   need to be extracted. (DEFAULT= .false.)
