@@ -30,7 +30,8 @@ in your Cygwin installation, again approaching it through a terminal application
 
 ## Citing
 If you use the HIVE4-tools in your research, please cite the following work (depending on the tool):
-* **Phonon partitioning** *"Partitioning the vibrational spectrum: Fingerprinting defects in solids"*,</br>
+**Phonon partitioning** 
+: *"Partitioning the vibrational spectrum: Fingerprinting defects in solids"*,</br>
 Danny E. P. Vanpoucke, *Computational Materials Science* **181**, 109736 (2020).</br>
 DOI: [10.1016/j.commatsci.2020.109736](https://dx.doi.org/10.1016/j.commatsci.2020.109736)
 * **NMR spectra** *"UV-Curable Biobased Polyacrylates Based on a Multifunctional 2 Monomer Derived from Furfural"*,</br>
