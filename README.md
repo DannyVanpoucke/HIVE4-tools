@@ -33,14 +33,17 @@ If you use the HIVE4-tools in your research, please cite the following work (dep
 
 <dl> 
  <dt>Phonon partitioning</dt>
- <dd> *"Partitioning the vibrational spectrum: Fingerprinting defects in solids"*,</br>
- Danny E. P. Vanpoucke, *Computational Materials Science* **181**, 109736 (2020).</br>
+ <dd> <I>"Partitioning the vibrational spectrum: Fingerprinting defects in solids"</I>,</br>
+ Danny E. P. Vanpoucke, <I>Computational Materials Science</I> <B>181</B>, 109736 (2020).</br>
  DOI: [10.1016/j.commatsci.2020.109736](https://dx.doi.org/10.1016/j.commatsci.2020.109736)</dd>
+
+  <dt>NMR spectra</dt>
+  <dd> <I>"UV-Curable Biobased Polyacrylates Based on a Multifunctional 2 Monomer Derived from Furfural"</I>,</br>
+  Jules Stouten, Danny E. P. Vanpoucke, Guy Van Assche, and Katrien V. Bernaerts, <I>Macromolecules</I> <B>53(4)</B>, 1388-1404 (2020).</br>
+  DOI: [10.1021/acs.macromol.9b02659](https://dx.doi.org/10.1021/acs.macromol.9b02659)</dd>
 </dl>
-**NMR spectra**
-: *"UV-Curable Biobased Polyacrylates Based on a Multifunctional 2 Monomer Derived from Furfural"*,</br>
-: Jules Stouten, Danny E. P. Vanpoucke, Guy Van Assche, and Katrien V. Bernaerts, *Macromolecules* **53(4)**, 1388-1404 (2020).</br>
-: DOI: [10.1021/acs.macromol.9b02659](https://dx.doi.org/10.1021/acs.macromol.9b02659)
+
+
 
 ## Errors, Bugs and other Nasties
 In case you run into problems with the program please consult the following:
