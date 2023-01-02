@@ -67,7 +67,7 @@ or sell it. If you like the HIVE-toolbox enough to use it for your work and use 
 published work, I would be grateful if you cite the relevant publication related to the used
 tools (*cf.*, build-in manual and specific documentation).
     
-The current version is valid until **31/12/2021**.
+The current version is valid until **31/12/2023**.
 
 
 ## Footnotes
