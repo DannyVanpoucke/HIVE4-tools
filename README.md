@@ -28,6 +28,23 @@ unix-systems and a dos-box under windows. In windows, you can also use the progr
 in your Cygwin installation, again approaching it through a terminal application 
 (*e.g.*, xterm). 
 
+## Citing
+If you use the HIVE4-tools in your research, please cite the following work (depending on the tool):
+
+<dl> 
+ <dt>Phonon partitioning</dt>
+ <dd> <I>"Partitioning the vibrational spectrum: Fingerprinting defects in solids"</I>,</br>
+ Danny E. P. Vanpoucke, <I>Computational Materials Science</I> <B>181</B>, 109736 (2020).</br>
+ DOI: [10.1016/j.commatsci.2020.109736](https://dx.doi.org/10.1016/j.commatsci.2020.109736)</dd>
+
+  <dt>NMR spectra</dt>
+  <dd> <I>"UV-Curable Biobased Polyacrylates Based on a Multifunctional 2 Monomer Derived from Furfural"</I>,</br>
+  Jules Stouten, Danny E. P. Vanpoucke, Guy Van Assche, and Katrien V. Bernaerts, <I>Macromolecules</I> <B>53(4)</B>, 1388-1404 (2020).</br>
+  DOI: [10.1021/acs.macromol.9b02659](https://dx.doi.org/10.1021/acs.macromol.9b02659)</dd>
+</dl>
+
+
+
 ## Errors, Bugs and other Nasties
 In case you run into problems with the program please consult the following:
 - [FAQ](/documentation/FAQ.md): problems with installation, running the program, finding information, crashes
@@ -36,13 +53,7 @@ this will be the place to find more information on the status of currently know 
 
 In case you run into a problem not mentioned in either of the above, please inform me via a Bug-report 
 submitted as an issue. 
-
-
-## Registration
-Stemming from my personal curiosity, I would like to know for which purpose people are 
-interested in using my program. In addition, it as also cool to keep track of how many people 
-are using my program (wouldn't you?). So please drop me a line if you are downloading and 
-using the HIVE-toolbox.<sup>[3](#ftnoteGDPR)</sup>   
+ 
 
 ## The Tools
 A log of all changes between versions can be found [here](/documentation/changelog.md)
@@ -58,7 +69,6 @@ The list of implemented tools so far:
 For further information please refer to my [webpage](https://dannyvanpoucke.be). 
 
 
-
 ## License
 HIVE-tools is freely available for academic usage. As it is in constant development the license 
 is limited to 1 year. This way you always have the most up-to-date version. You are free to use
@@ -68,6 +78,12 @@ published work, I would be grateful if you cite the relevant publication related
 tools (*cf.*, build-in manual and specific documentation).
     
 The current version is valid until **31/12/2023**.
+
+## Registration
+Stemming from my personal curiosity, I would like to know for which purpose people are 
+interested in using my program. In addition, it as also cool to keep track of how many people 
+are using my program (wouldn't you?). So please drop me a line if you are downloading and 
+using the HIVE-toolbox.<sup>[3](#ftnoteGDPR)</sup>  
 
 
 ## Footnotes
